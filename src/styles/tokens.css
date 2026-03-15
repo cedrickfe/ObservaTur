@@ -1,0 +1,14 @@
+:root {
+  --background: #ffffff;
+  --foreground: #334155;
+  --muted-foreground: #64748b;
+  --border: #e2e8f0;
+  --card: #ffffff;
+
+  --radius-sm: 0.625rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1rem;
+
+  --space-page-x: clamp(1rem, 1.6vw, 2rem);
+  --space-page-y: clamp(1rem, 2vw, 2.5rem);
+}
