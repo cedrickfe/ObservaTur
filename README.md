@@ -1,11 +1,10 @@
-# ObservaTur Front-end
+# ObservaTur Front-end (Protótipo)
 
-Base inicial do front-end da plataforma **ObservaTur**, construída para demo de hackathon com foco em UX, organização e escalabilidade.
+Base inicial do front-end da plataforma **ObservaTur**, preparada para demonstração de hackathon com arquitetura escalável, UI responsiva e dados 100% mockados.
 
 ## Stack
 - Next.js 14 (App Router)
-- React 18
-- TypeScript
+- React 18 + TypeScript
 - Tailwind CSS
 - Lucide React
 
@@ -33,11 +32,11 @@ public/                    # assets públicos
 ```
 
 ## O que já está pronto
-- Layout global com navbar.
-- Home inicial funcional e responsiva.
-- Sistema base de tipografia e espaçamento via tokens CSS.
+- Layout global com navbar inicial.
+- Home funcional e responsiva para desktop/tablet/mobile.
+- Sistema base de tipografia, espaçamento e bordas via tokens CSS.
 - Componentes base reutilizáveis (`Button`, `Card`, `Container`).
-- Dados mockados centralizados para navegação/demonstração.
+- Dados mockados centralizados para iteração rápida.
 
 ## Executar
 ```bash
@@ -45,4 +44,4 @@ npm install
 npm run dev
 ```
 
-Acesse `http://localhost:3000`.
+Acesse: `http://localhost:3000`.

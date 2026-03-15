@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'ObservaTur | Gestão inteligente do turismo municipal',
-  description: 'Protótipo front-end responsivo para apresentação da plataforma ObservaTur.'
+  description: 'Protótipo front-end responsivo da plataforma ObservaTur para apresentação em hackathon.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
