@@ -1,6 +1,6 @@
 # ObservaTur Front-end (Protótipo)
 
-Base inicial do front-end da plataforma **ObservaTur**, preparada para demonstração de hackathon com arquitetura escalável, UI responsiva e dados 100% mockados.
+Base inicial do front-end da plataforma **ObservaTur**, preparada para demonstração de hackathon com arquitetura escalável, visual profissional e dados 100% mockados.
 
 ## Stack
 - Next.js 14 (App Router)
@@ -22,12 +22,12 @@ src/
   data/
     mock/                  # dados simulados centralizados
     index.ts               # barrel file dos mocks
-  types/                   # tipagens compartilhadas
   hooks/                   # hooks reutilizáveis
   lib/
     constants/             # configurações e constantes do app
     cn.ts                  # utilitário de classes
   styles/                  # tokens visuais e base global
+  types/                   # tipagens compartilhadas
 public/                    # assets públicos
 ```
 
@@ -37,6 +37,13 @@ public/                    # assets públicos
 - Sistema base de tipografia, espaçamento e bordas via tokens CSS.
 - Componentes base reutilizáveis (`Button`, `Card`, `Container`).
 - Dados mockados centralizados para iteração rápida.
+
+## Princípios desta etapa
+- Sem backend.
+- Sem banco de dados.
+- Sem autenticação real.
+- Sem integrações externas.
+- Foco em UX/UI e organização para expansão futura.
 
 ## Executar
 ```bash

@@ -4,15 +4,22 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'ObservaTur | Gestão inteligente do turismo municipal',
-  description: 'Protótipo front-end responsivo da plataforma ObservaTur para apresentação em hackathon.'
+  description:
+    'Protótipo front-end responsivo da plataforma ObservaTur para apresentação em hackathon, com dados mockados.'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+type RootLayoutProps = {
+  children: React.ReactNode;
+};
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-BR">
       <body>
-        <Navbar />
-        {children}
+        <div className="min-h-screen bg-white text-slate-700">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
